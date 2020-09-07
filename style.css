@@ -39,6 +39,28 @@ body{
     align-items: center;
 }
 
+#skills{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skills-tile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tileSkill{
+    border: none;
+    padding: 0 2rem ;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
 #projects{
     display: flex;
     height: 100vh;
@@ -51,7 +73,7 @@ body{
     flex-wrap: wrap;
 }
 
-.tile{
+.tileProj{
     border: 1px black solid;
     padding: 2rem;
     width: 15rem;
